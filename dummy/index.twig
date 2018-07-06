@@ -1,0 +1,12 @@
+{% extends '_html.twig' %}
+
+{% block body %}
+    {% include '@components/nav/index-list/index-list.twig' with {
+      items: [
+        {
+          title: 'Example',
+          url: 'example.html',
+        },
+      ],
+    } %}
+{% endblock %}

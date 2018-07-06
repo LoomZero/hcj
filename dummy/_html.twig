@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html class="js">
+    <head>
+        {% block head %}
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width"/>
+            {% block css %}
+                <link href="/css/styles.css" rel="stylesheet"/>
+            {% endblock %}
+            <title>
+                {% block title %}Dummy{% endblock %}
+            </title>
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+    </body>
+</html>

@@ -1,8 +1,8 @@
 <div class="index-list">
     <ul>
         {% for item in items %}
-            <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
+            <li class="index-list__item">
+                <a href="{{ item.url }}" class="index-list__link">{{ item.title }}</a>
             </li>
         {% endfor %}
     </ul>
